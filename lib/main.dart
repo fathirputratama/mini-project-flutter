@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mini_project/module/picture/binding/picture_binding.dart';
-import 'package:mini_project/module/picture/view/list_picture_view.dart';
-import 'package:mini_project/routes/app_pages.dart';
+import 'package:mini_project/core.dart';
 
 void main() {
   PictureBinding().dependencies();
-  
+
   runApp(const MainApp());
 }
 
